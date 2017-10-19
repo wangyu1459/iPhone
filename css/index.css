@@ -1,0 +1,1140 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 442358 */
+  src: url('http://at.alicdn.com/t/font_442358_lrbg98fs18pmygb9.eot');
+  src: url('http://at.alicdn.com/t/font_442358_lrbg98fs18pmygb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_442358_lrbg98fs18pmygb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_442358_lrbg98fs18pmygb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_442358_lrbg98fs18pmygb9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: iconfont;
+	font-style: normal;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #999999;
+}
+header main{
+	/* width: 985px; */
+	height: 100%;
+	/* background-color: white; */
+	margin: 0 auto;
+}
+header main a{
+	float: right;
+	line-height: 40px;
+	color: #f5f5f5;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background-color: #333;
+}
+nav ul{
+	margin: 0 auto;
+/* 	width: 976px; */
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li a{
+	font-size: 12px;
+	color: white;
+	line-height: 40px;
+}
+.banner{
+	width: 100%;
+	height: auto;
+	margin-bottom: 12px;
+}
+.bannerlist{
+	width: 100%;
+	height: auto;
+	background-color: #f9f0eb;
+	margin-bottom: 12px;
+}
+.ix{
+	width: 100%;
+	height: auto;
+}
+.ixlist{
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+}
+.iphonelist{
+	width: 100%;
+	height: auto;
+	margin-bottom: 12px;
+}
+.iphonelist1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+	.footerneirong{
+			width: 68%;
+	}
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.bannerlist li{
+	width: 100%;
+	height: 580px;
+	}
+	.bannerlist li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #f9f0eb;
+	position: relative;
+	border-top: 65px solid #f9f0eb
+	}
+	.bannerlist li a h1{
+	font-size: 56px;
+	text-align: center;
+	color: black;
+/* 	margin-top: 65px; */
+	}
+	.bannerlist li a p{
+	font-size: 22px;
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+	}
+	.bannerimg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 561px;
+	height: 395px;
+	margin: 0 auto;
+	background-image: url('../img/1.jpg');
+	}
+	.ixlist li{
+	width: 100%;
+	height: 580px;
+	margin-bottom: 12px;
+	}
+	.ixlist li a{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+	position: relative;
+	}
+	.ixlist li a h1{
+	font-size: 56px;
+	text-align: center;
+	color: black;
+	margin-top: 65px;
+	}
+	.ixlist li a p{
+	font-size: 22px;
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+	}
+	.iximg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 909px;
+	height: 194px;
+	margin: 0 auto;
+	background-image: url('../img/iphone_x_large.jpg');
+	}
+	.iphonelist1:nth-child(2n+1){
+	border-left: 12px solid white;
+}
+.list1neirong{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+	border-right: 12px solid white;
+}
+.list1neirong a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong h1{
+	font-size: 48px;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+}
+.list1neirong p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 10px;
+}
+.list1neirong1{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+	border-right: 12px solid white;
+}
+.list1neirong1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong1 h1{
+	font-size: 48px;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+}
+.list1neirong1 p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 7px;
+}
+.list1neirong2{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+	border-right: 12px solid white;
+}
+.list1neirong2 a{
+	display: flex;
+	align-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong2 h1{
+	font-size: 48px;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+}
+.list1neirong2 p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 7px;
+}
+.iplistimg{
+	width: 516px;
+	height: 369px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url('../img/ios_large.jpg')
+}
+.iplistimg1{
+	width: 553px;
+	height: 392px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url('../img/watchos_large.jpg')
+}
+.iplistimg2{
+	width: 496px;
+	height: 306px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: url('../img/trade_up_large_03.png') no-repeat;
+}
+.iplistimg3{
+	width: 496px;
+	height: 306px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: url('../img/macos_high_sierra_large.jpg') no-repeat;
+}
+.neirongshang{
+	width: 100%;
+	height: 281px;
+	padding-top: 42px;
+}
+.neirongshang li{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.neirongshang h1{
+	font-size: 12px;
+	color: black;
+}
+.neirongshang a{
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+	color: #555577;
+}
+.neirongshang{
+	display: block;
+}
+.neirongshang1{
+	display: none;
+}
+.neirongxia{
+	margin-top: 23px;
+	width: 100%;
+	height: 90px;
+}
+.neirongxia p:first-child{
+	font-size: 12px;
+}
+.neirongxia p a{
+	color: blue;
+}
+.inc{
+	float: left;
+	display: inline;
+	font-size: 12px;
+}
+.zhong ul{
+	width: 360px;
+	height: 16px;
+	float: left;
+	margin-left: 0px;
+}
+.yinsi{
+	float: left;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+}
+.yinsi:first-child{
+	border-left: none;
+}
+.yinsi:last-child{
+	border-right: none;
+}
+.yinsi a{
+	display: block;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.neirongxia h1{
+	display: block;
+	float: right;
+	font-size: 12px;
+	color: black;
+}
+.zhong{
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+}
+footer{
+	padding-top: 50px;
+	width: 100%;
+	height: auto;
+	background-color: #F2F2F2;
+}
+.footerneikuan{
+	width: 66%;
+	height: auto;
+	margin: 0 auto;
+}
+.footertop{
+	width: 100%;
+	height: auto;
+}
+.footertopneirong{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.footertopneirong li{
+	width: 20%;
+	height: auto;
+	float: left;
+}
+.footertopneirong li h1{
+	font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 600;
+}
+.footertopneirong li p{
+	font-size: 12px;
+	line-height: 24px;
+	color: #555;
+}
+.footertopneirong1{
+	display: none;
+}
+.footbottom{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.jingxiaoshang{
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #555;
+	font-size: 12px;
+	color: #888;
+}
+.zhong{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.quanli{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.ditu{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+	overflow: hidden;
+}
+.ditu li{
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 0 5px 0;
+	font-size: 12px;
+	color: #888;
+}
+.zhongguo{
+	width: 50px;
+	height: auto;
+	float: right;
+	overflow: hidden;
+}
+.zhongguo i{
+	font-size: 12px;
+	float: left;
+	color: red;
+}
+.zhongguo p{
+	float: right;
+	font-size: 12px;
+	color: #888;
+}
+.zuihou{
+	float: left;
+	padding-right: 100px;
+	margin-top: 10px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.footbottom1{
+	display: none;
+}
+
+
+}
+@media screen and (max-width: 1024px){
+	.footerneirong{
+			width: 68%;
+	}
+	header main{
+		padding-right: 40px;
+	}
+	nav ul{
+		padding-right: 20px;
+	}
+	.nav1{
+		display: block;
+	}
+	.nav2{
+		display: none;
+	}
+	.bannerlist li{
+	width: 100%;
+	height: 568px;
+	margin-bottom: 12px;
+	}
+	.bannerlist li a{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #f9f0eb;
+	position: relative;
+	}
+	.bannerlist li a h1{
+	font-size: 48px;
+	text-align: center;
+	color: black;
+	margin-top: 55px;
+	}
+	.bannerlist li a p{
+	font-size: 16px;
+	margin-top: 14px;
+	color: black;
+	text-align: center;
+	}
+	.bannerimg{
+	width: 549px;
+	height: 388px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../img/2.jpg');
+	}
+	.ixlist li{
+	width: 100%;
+	height: 568px;
+	margin-bottom: 12px;
+	}
+	.ixlist li a{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+	position: relative;
+	}
+	.ixlist li a h1{
+	font-size: 48px;
+	text-align: center;
+	color: black;
+	margin-top: 55px;
+	}
+	.ixlist li a p{
+	font-size: 16px;
+	margin-top: 14px;
+	color: black;
+	text-align: center;
+	}
+	.footbottom1{
+	display: none;
+}
+
+	.iximg{
+	width: 704px;
+	height: 148px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../img/iphone_x_medium.jpg');
+	}
+.footbottom{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.jingxiaoshang{
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #555;
+	font-size: 12px;
+	color: #888;
+}
+.zhong{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.quanli{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.ditu{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+	overflow: hidden;
+}
+.ditu li{
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 0 5px 0;
+	font-size: 12px;
+	color: #888;
+}
+.zhongguo{
+	width: 50px;
+	height: auto;
+	float: right;
+	overflow: hidden;
+}
+.zhongguo i{
+	font-size: 12px;
+	float: left;
+	color: red;
+}
+.zhongguo p{
+	float: right;
+	font-size: 12px;
+	color: #888;
+}
+.zuihou{
+	float: left;
+	padding-right: 50px;
+	margin-top: 10px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.list1neirong{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+}
+.list1neirong a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 45px;
+}
+.list1neirong p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 10px;
+}
+.list1neirong1{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+	border-right: 12px solid white;
+}
+.list1neirong1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong1 h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 25px;
+}
+.list1neirong1 p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 7px;
+}
+.list1neirong2{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+	border-right: 12px solid white;
+}
+.list1neirong2 a{
+	display: flex;
+	align-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong2 h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 25px;
+}
+.list1neirong2 p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 7px;
+}
+.iplistimg{
+	width: 362px;
+	height: 261px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url('../img/ios_medium.jpg')
+}
+.iplistimg1{
+	width: 381px;
+	height: 270px;
+	margin: 0 auto;
+	margin-top: 34px;
+	background-image: url('../img/watchos_medium.jpg')
+}
+.iplistimg2{
+	width: 496px;
+	height: 306px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url('../img/trade_up_large_03.png');
+	background-size: 100%;
+}
+.iplistimg3{
+	width: 448px;
+	height: 192px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: url('../img/macos_high_sierra_medium.jpg') no-repeat;
+}
+footer{
+	padding-top: 50px;
+	width: 100%;
+	height: auto;
+	background-color: #F2F2F2;
+}
+.footerneikuan{
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+}
+.footertop{
+	width: 100%;
+	height: auto;
+}
+.footertopneirong{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.footertopneirong li{
+	width: 20%;
+	height: auto;
+	float: left;
+}
+.footertopneirong li h1{
+	font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 600;
+}
+.footertopneirong li p{
+	font-size: 12px;
+	line-height: 24px;
+	color: #555;
+}
+.footertopneirong1{
+	display: none;
+}
+.footbottom{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.jingxiaoshang{
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #555;
+	font-size: 12px;
+	color: #888;
+}
+.zhong{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.quanli{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.ditu{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+	overflow: hidden;
+}
+.ditu li{
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 0 5px 0;
+	font-size: 12px;
+	color: #888;
+}
+.zhongguo{
+	width: 50px;
+	height: auto;
+	float: right;
+	overflow: hidden;
+}
+.zhongguo i{
+	font-size: 12px;
+	float: left;
+	color: red;
+}
+.zhongguo p{
+	float: right;
+	font-size: 12px;
+	color: #888;
+}
+.zuihou{
+	float: left;
+	padding-right: 50px;
+	margin-top: 10px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+
+
+
+
+}
+@media screen and (max-width: 768px){
+	.nav1{
+		display: none;
+	}
+	.nav2{
+		display: block;
+	}
+	.bannerlist li{
+	width: 100%;
+	height: 556px;
+	margin-bottom: 12px;
+	}
+	.bannerlist li a{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #f9f0eb;
+	}
+	.bannerlist li a h1{
+	font-size: 38px;
+	text-align: center;
+	color: black;
+	margin-top: 45px;
+	}
+	.bannerlist li a p{
+	font-size: 12px;
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+	}
+	.bannerimg{
+	width: 267px;
+	height: 357px;
+	margin-bottom: 1px;
+	margin: 0 auto;
+	background-image: url('../img/3.jpg');
+	}
+	.ixlist li{
+	width: 100%;
+	height: 556px;
+	margin-bottom: 12px;
+	}
+	.ixlist li a{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+	}
+	.ixlist li a h1{
+	font-size: 38px;
+	text-align: center;
+	color: black;
+	margin-top: 45px;
+	}
+	.ixlist li a p{
+	font-size: 12px;
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+	}
+	.iximg{
+	width: 167px;
+	height: 333px;
+	margin-bottom: 1px;
+	margin: 0 auto;
+	background-image: url('../img/iphone_x_small.jpg');
+	}
+	.iphonelist1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.list1neirong{
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+}
+.list1neirong a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 45px;
+}
+.list1neirong p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 10px;
+}
+.list1neirong1{
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+}
+.list1neirong1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong1 h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 25px;
+}
+.list1neirong1 p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 7px;
+}
+.list1neirong2{
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+	border-top: 12px solid white;
+}
+.list1neirong2 a{
+	display: flex;
+	align-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.list1neirong2 h1{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	margin-top: 25px;
+}
+.list1neirong2 p{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 7px;
+}
+.iplistimg{
+	width: 362px;
+	height: 261px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url('../img/ios_alt_small.jpg')
+}
+.iplistimg1{
+	width: 381px;
+	height: 270px;
+	margin: 0 auto;
+	margin-top: 34px;
+	background: url('../img/watchos_small.jpg') no-repeat;
+}
+.iplistimg2{
+	width: 496px;
+	height: 306px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url('../img/trade_up_large_03.png')
+}
+.iplistimg3{
+	width: 448px;
+	height: 192px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: url('../img/macos_high_sierra_small.jpg')  no-repeat;
+}
+.footertopneirong{
+	display: none;
+}
+.footertopneirong1{
+	display: block;
+}
+footer{
+	padding: 20px 10px 0;
+	width: 100%;
+	height: auto;
+	background-color: #F2F2F2;
+}
+.footertopneirong1{
+	width: 100%;
+	height: auto;
+}
+.footertopneirong1 li{
+	width: 100%;
+	height: calc(100%/7);
+	padding: 10px 0;
+	border-bottom: 1px solid #999999;
+	font-size: 12px;
+}
+.footertopneirong1 li i{
+	float: right;
+}
+.footbottom1{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.jingxiaoshang1{
+	width: 100%;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	color: #888;
+}
+.zhong1{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+
+}
+.quanli1{
+	margin-top: 10px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.ditu1{
+	margin-top: 10px;
+	width: 50%;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+	overflow: hidden;
+}
+.ditu1 li{
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 0 3px 0;
+	font-size: 12px;
+	color: #888;
+}
+.ditu1 li:first-child{
+	padding-left: 0;
+}
+.zhongguo1{
+	width: 50px;
+	height: auto;
+	overflow: hidden;
+}
+.zhongguo1 i{
+	font-size: 12px;
+	float: left;
+	color: red;
+}
+.zhongguo1 p{
+	float: right;
+	font-size: 12px;
+	color: #888;
+}
+.zuihou1{
+	float: left;
+	padding-right: 50px;
+	margin-top: 10px;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+	color: #888;
+}
+.footbottom{
+	display: none;
+}
+.footbottom1{
+	display: block
+}
